@@ -46,10 +46,18 @@ font-size: 25px;
 .contact{
     background-image: url(../images/c_image.jpg );
     background-size: cover;
-    height: 200px;
+    height: 250px;
     padding-right: 160px;
-}
-#do{
     color: white;
     text-align: center;
+}
+#form{
+    margin-left: 20%;
+
+}
+.media{
+    margin-left: 30%;
+}
+.copy{
+    margin-left: 40%;
 }
