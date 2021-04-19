@@ -56,6 +56,5 @@ $(document).dblclick(function () {
     } else {
         alert(' Dear ' + name + ' we have received your message successfully. ' + ' welcome');
     }
-    
-    
+    // please doble click on the button
 });
