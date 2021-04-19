@@ -10,7 +10,7 @@ This is basically a naming website, that tells  your name in a Ghanaian accent. 
 * easy-to-understand
 * To access this project on your local files, you can clone it using these steps:
 Open your terminal
-Use this command to clone "https://github.com/AbdimulhinYussuf3675/My-Potfolio-landing-page.git"_
+Use this command to clone "https://github.com/AbdimulhinYussuf3675/Delani-studio"_
 ## Technologies Used
 1. HTML
 2. CSS
