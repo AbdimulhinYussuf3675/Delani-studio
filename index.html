@@ -8,9 +8,9 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="./cs/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <title>Delani Studio</title>
-    <script src="./js/jquery-3.3.1.jsgit"></script>
+    <script src="./js/jquery-3.3.1.js"></script>
     <script src="./js/script.js"></script>
+    <title>Delani Studio</title>
 </head>
 
 <body>
@@ -63,8 +63,8 @@
                 <h2><strong>WHAT WE DO</strong></h2>
                 <div class="row">
                     <div class="col-md-4">
-                        <img src="./images/design_icon.png" alt="design_icon">
-                        <h5>DESIGN</h5>
+                        <h5><strong>DESIGN</strong></h5>
+                        <div id="image1"><img src="./images/design_icon.png" alt="design_icon"></div>
                         <P id="design">Our design practice offers a full range of services<br>
                             brand strategy, interaction and
                             visual design
@@ -78,18 +78,18 @@
                         </P>
                     </div>
                     <div class="col-md-4">
-                        <img src="./images/dev_icon.png" alt="development">
-                        <h5>DEVELOPMENT</h5>
-                        <p class="dev">All engineers are fluent in the latest enterprise,
+                        <h5><strong>DEVELOPMENT</strong></h5>
+                        <div id="image2"><img src="./images/dev_icon.png" alt="development"></div>
+                        <p id="dev">All engineers are fluent in the latest enterprise,
                             mobile and web development technologies.
                             They collaborate with your team to write, and improve code
                             a daily basis, using proven
                             such as test-driven development and pair programming.</p>
                     </div>
                     <div class="col-md-4">
-                        <img src="./images/product_icon.png" alt="">
-                        <h5>PRODUCT MANAGMENT</h5>
-                        <p class="prod">Planning and development is iterative.
+                        <h5><strong>PRODUCT MANAGMENT</strong></h5>
+                        <div id="image3"><img src="./images/product_icon.png" alt=""></div>
+                        <p id="prod">Planning and development is iterative.
                             Because we are constantly coding and testing,the products we build are ready to go live.
                             <br>
                             This are iterative process allows for changes as business requirements revolve
@@ -98,31 +98,30 @@
 
 
                     <div id="portfolio">
-
                         <h2><strong>PORTFOLIO</strong></h2>
                         <div class="goals">
                             <div class="row">
                                 <div class="col-md-3" id="work1">
                                     <img src="./images/work4.jpg" width="100%" alt="one">
-                                    <div class="text-center">
+                                    <div class="text-center" id="overlay1">
                                         <p>black studio</p>
                                     </div>
                                 </div>
                                 <div class="col-md-3" id="work2">
                                     <img src="./images/work2.jpg" width="100%" alt="two">
-                                    <div class="text-center">
+                                    <div class="text-center" id="overlay2">
                                         <p>ontario security</p>
                                     </div>
                                 </div>
                                 <div class="col-md-3 " id="work3">
                                     <img src="./images/work3.jpg" width="100%" alt="three">
-                                    <div class="text-center">
+                                    <div class="text-center" id="overlay3">
                                         <p>pyramid</p>
                                     </div>
                                 </div>
                                 <div class="col-md-3 " id="work4">
                                     <img src="./images/work1.jpg" width="100%" alt="three">
-                                    <div class="text-center">
+                                    <div class="text-center" id="overlay4">
                                         <p>jim carrey</p>
                                     </div>
                                 </div>
@@ -132,25 +131,25 @@
                                     <div class="row">
                                         <div class="col-md-3" id="work5">
                                             <img src="./images/work5.jpg" width="100%" alt="five">
-                                            <div class="text-center">
+                                            <div class="text-center" id="overlay5">
                                                 <p>have a good day</p>
                                             </div>
                                         </div>
                                         <div class="col-md-3" id="work6">
                                             <img src="./images/work6.jpg" width="100%" alt="six">
-                                            <div class="text-center">
+                                            <div class="text-center" id="overlay6">
                                                 <p>buttons</p>
                                             </div>
                                         </div>
                                         <div class="col-md-3" id="work7">
                                             <img src="./images/work7.jpg" width="100%" alt="seven">
-                                            <div class="text-center">
+                                            <div class="text-center" id="overlay7">
                                                 <p>burned</p>
                                             </div>
                                         </div>
                                         <div class="col-md-3" id="work8">
                                             <img src="./images/work8.jpg" width="100%" alt="eight">
-                                            <div class="text-center">
+                                            <div class="text-center" id="overlay8">
                                                 <p>girrafe</p>
                                             </div>
                                         </div>
@@ -164,26 +163,35 @@
             </div>
         </div>
         <div class="contact">
-            <h2>CONTACT US</h2>
-            <form action="http://eepurl.com/hfO7mL"></form>
-            <div class="row">
-                <div class="row" id="form">
-                    <div class="col-lg-6 " id="name">
-                        <input type="text" class="form-control" id="name" placeholder="Name" autocorrect="off" required>
-                    </div>
-                    <div class="col-lg-6" id="email">
-                        <input type="email" class="form-control" id="email" placeholder="Email" autocorrect="off"
-                            required>
+            <h3><strong>CONTACT US</strong></h3>
+            <!-- <form action="http://eepurl.com/hfO7mL"> -->
+                <div class="container">
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-lg-6" id="form-group">
+                                <input type="text" class="form-control" id="name" placeholder="Name" autocorrect="off"
+                                    required>
+                            </div>
+                            <div class="col-lg-6">
+                                <input type="text" class="form-control" id="email" placeholder="email" autocorrect="off"
+                                    required></div>
+                                    <br>
+                                    <br>
+                                    <br>
+                            <div class="col-md-12">
+                                <input type="text" class="form-control" id="message" style="height: 100px;" placeholder="Message"
+                                    autocorrect="off" required>
+                            </div>
+                        </div>
                         <br>
-                        <br>
+
                     </div>
-                    <input type="email" class="form-control" id="email" placeholder="Massage" autocorrect="off"
-                        required>
                 </div>
-            </div>
-            <br>
-            <button class="btn btn-info " id="ma">Submit</button><br><br>
+                <button class="btn btn-info " id="button">Submit</button><br><br>
+                <div>
+                </div>
         </div>
+        </form>
         <br>
         <br>
         <footer>
@@ -197,11 +205,6 @@
                 <img src="./images/pinterest.png">
                 <img src="./images/dribble.png">
                 <img src="./images/twitter.png">
-
-            </div>
-            <div class="copy">
-                <p>Delani studio</p>
-                <p>2020</p>
             </div>
 
 
