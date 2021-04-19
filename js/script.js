@@ -42,7 +42,7 @@ $(document).dblclick(function () {
     var email = document.getElementById("email").value;
     var message = document.getElementById("message").value;
     if (name === "" && email === "" && message === ""){
-        alert("please insert your credentials")
+        confirm("please insert your credentials")
     }
     else
     if (name === "") {
@@ -54,6 +54,7 @@ $(document).dblclick(function () {
     if (message === "") {
         alert("Please insert your message!")
     } else {
-        alert(' Dear ' + name + ' we have received your message successfully. ' + ' Feel free to reach out to us' + ' welcome');
+        alert(' Dear ' + name + ' we have received your message successfully. ' + ' welcome');
     }
+    // please doble click on the button
 });
