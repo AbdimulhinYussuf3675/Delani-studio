@@ -37,13 +37,14 @@ $(document).ready(function () {
         $("#prod").slideUp();
     });
 });
-$(document).click(function () {
+$(document).dblclick(function () {
     var name = document.getElementById("name").value;
     var email = document.getElementById("email").value;
     var message = document.getElementById("message").value;
     if (name === "" && email === "" && message === ""){
-        alert("please insert your credentials")
+        confirm("please insert your credentials")
     }
+    else
     if (name === "") {
         alert("Please Insert your name")
     } else
@@ -53,6 +54,8 @@ $(document).click(function () {
     if (message === "") {
         alert("Please insert your message!")
     } else {
-        alert(' Dear ' + name + ' we have received your message successfully. ' + ' Feel free to reach out to us at anytime');
+        alert(' Dear ' + name + ' we have received your message successfully. ' + ' welcome');
     }
+    
+    
 });
