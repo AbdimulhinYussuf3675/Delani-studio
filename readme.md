@@ -2,7 +2,7 @@
 ## Author
 Abdimulhin Adan.
 ## Description
-This is basically a STUDIO website, that takes users name and opinions.
+This is basically a studio website, that takes users name and opinions.
 ## Setup/Installation Requirements
 * This is a great place
 * to list setup instructions
