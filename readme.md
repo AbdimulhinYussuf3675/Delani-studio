@@ -19,7 +19,7 @@ Use this command to clone "https://github.com/AbdimulhinYussuf3675/Delani-studio
 ## Support and contact details
 You can contact me through my email adamabdimulhi.001@gmail.com
 ### Live Site
-View [live](https://github.com/AbdimulhinYussuf3675/My-Potfolio-landing-page.git)
+View [live](https://abdimulhinyussuf3675.github.io/Delani-studio)
 ### Licence
 This project is under the  [MIT](LICENCE) licence
 License format:
