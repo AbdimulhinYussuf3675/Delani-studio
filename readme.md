@@ -1,8 +1,8 @@
-# Akan-name
+# DELANI STUDIO
 ## Author
 Abdimulhin Adan.
 ## Description
-This is basically a naming website, that tells  your name in a Ghanaian accent. it has an input of the day you're born telling you the Ghanian name according to the day you're born and month plus year.
+This is basically a STUDIO website, that takes users name and opinions.
 ## Setup/Installation Requirements
 * This is a great place
 * to list setup instructions
