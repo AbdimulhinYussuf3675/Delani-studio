@@ -64,3 +64,6 @@ font-size: 25px;
 .image{
     position: relative;
 }
+.col-md-4{
+cursor: pointer;
+}
