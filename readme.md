@@ -1,6 +1,6 @@
 # DELANI STUDIO
 ## Author
-Abdimulhin Adan.
+- [Abdimulhin Adan](https://github.com/AbdimulhinYussuf3675)
 ## Description
 This is basically a studio website, that takes users name and opinions.
 ## Setup/Installation Requirements
